@@ -14,5 +14,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
   in real time
   When I come to know that n number of specialists are visiting my
   hospital and take a minimum of n and number of green slots
-  Then I can calculate the number of slots
-  that can be allocated to the specialists
+  Then I can calculate the number of slots to the specialists
