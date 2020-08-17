@@ -5,7 +5,7 @@ that runs the visit-counter
 
   Given that I have a backup mechanism that copies the data
   into a secondary database every hour
-  When a problem occurs and restarting the server is required
+  When a problem occurs and I restart the system
   Then I can recover all the lost data from secondary database
 
 Scenario: Reconcile counts if the sensor is offline for a while
